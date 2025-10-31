@@ -16,7 +16,7 @@
 * **Keranjang Belanja "Countable":** Mengklik `ImageView` pada item menu akan menambahkan *nama* item tersebut ke `ArrayList` yang berfungsi sebagai keranjang belanja.
 * **Ringkasan Pesanan :** Sebuah `Activity` (`OrderSummaryActivity`) khusus untuk menampilkan item yang ada di keranjang sebelum melanjutkan ke pembayaran.
 * **Formulir Pengiriman :** Menggunakan b *input controls* untuk mengumpulkan data alamat pengguna.
-* **Konfirmasi Pesanan :**  (`OrderCompleteActivity`) memberi konfirmasi kepada pengguna dan mengembalikan mereka ke menu utama dengan bersih.
+* **Konfirmasi Pesanan :**  (`OrderCompleteActivity`) memberi konfirmasi kepada pengguna dan kembali ke menu utama.
 * **Tema Kustom:** Tema aplikasi  palet warna **Biru** primer.
 
 ---
