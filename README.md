@@ -22,6 +22,6 @@
 ---
 
 ##  Identitas diri
-* **Nama:** [Muhammad Fauzan Lubada]
-* **NIM:** [1237050078]
-* **Kelas:** [5C]
+* **Nama:** Muhammad Fauzan Lubada
+* **NIM:** 1237050078
+* **Kelas:** 5C
