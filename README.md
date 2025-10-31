@@ -1,7 +1,7 @@
 
 | 1. Halaman Selamat Datang | 2. Halaman Pilihan Auth | 3. Halaman Register | 4. Halaman Login |
 | :---: | :---: | :---: | :---: |
-| *![WhatsApp Image 2025-10-31 at 22 04 43_60dcbdd2](https://github.com/user-attachments/assets/3bf0a4d0-7d48-4d77-af41-ab823ed7f025)* | *[Upload screenshot AuthActivity di sini]* | *[Upload screenshot RegisterActivity di sini]* | *[Upload screenshot LoginActivity di sini]* |
+| *![WhatsApp Image 2025-10-31 at 22 04 43_60dcbdd2](https://github.com/user-attachments/assets/3bf0a4d0-7d48-4d77-af41-ab823ed7f025)* | *![WhatsApp Image 2025-10-31 at 22 04 43_8f1bbd3e](https://github.com/user-attachments/assets/0c53acff-fbce-4b1d-8429-29f9e937ba1d * | *![WhatsApp Image 2025-10-31 at 22 04 42_70329f28](https://github.com/user-attachments/assets/e13f1714-f348-43ce-acaa-30904b68d647) * | *![WhatsApp Image 2025-10-31 at 22 04 43_d8e36be3](https://github.com/user-attachments/assets/63966bbb-c23c-40ff-8ca8-d81c39a09f7b) * |
 
 ### Alur Pemesanan
 | 5. Halaman Menu (Home) | 6. Halaman Keranjang (Order Summary) | 7. Halaman Alamat (Delivery) | 8. Halaman Selesai (Confirm) |
