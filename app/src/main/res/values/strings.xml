@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DigitalCafe</string>
+
+    <string name="selamat_datang">Daftar untuk merasakan kenyamanan yang maksimal</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+
+    <string name="halo_user">Halo Nazwa,</string>
+    <string name="pilih_menu">Pilih Menu</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_order">Order</string>
+    <string name="nav_profile">Profile</string>
+    <string name="donut_name">Donuts</string>
+    <string name="donut_desc">Donuts are glazed and sprinkled with candy.</string>
+    <string name="froyo_name">Froyo</string>
+    <string name="froyo_desc">Froyo is premium self-serve frozen yogurt.</string>
+    <string name="ice_cream_name">Ice Cream Sandwich</string><string name="ice_cream_desc">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="kopi_hitam_name">Kopi Hitam</string><string name="kopi_hitam_desc">Kopi hitam klasik yang kuat untuk memulai hari Anda.</string>
+    <string name="caffe_latte_name">Caffe Latte</string><string name="caffe_latte_desc">Espresso dengan susu steam dan sedikit busa lembut.</string>
+    <string name="croissant_name">Croissant</string><string name="croissant_desc">Roti mentega yang renyah dan gurih, sempurna dengan kopi.</string>
+    <string name="cheesecake_name">Cheesecake</string><string name="cheesecake_desc">Kue keju gaya New York yang lembut dan kaya rasa.</string>
+    <string name="matcha_latte_name">Matcha Latte</string><string name="matcha_latte_desc">Teh hijau murni dipadukan dengan susu steam yang manis.</string>
+    <string name="club_sandwich_name">Club Sandwich</string><string name="club_sandwich_desc">Roti lapis panggang dengan isi daging asap, selada, dan tomat.</string>
+    <string name="red_velvet_name">Red Velvet</string><string name="red_velvet_desc">Kue red velvet yang lembut dengan lapisan krim keju.</string>
+    <string name="jus_jeruk_name">Jus Jeruk</string><string name="jus_jeruk_desc">Jus jeruk peras segar tanpa tambahan gula.</string>
+    <string name="muffin_name">Muffin</string><string name="muffin_desc">Kue muffin blueberry yang lembut dan empuk.</string>
+    <string name="espresso_name">Espresso</string><string name="espresso_desc">Satu sloki kopi pekat untuk penambah semangat.</string>
+
+
+    <string name="alamat_pengiriman">Alamat Pengiriman</string>
+    <string name="alamat">Alamat</string>
+    <string name="detail_alamat">Detail alamat lengkap (cth: Blok A1 No. 10)</string>
+    <string name="pilih_kota">Pilih Kota</string>
+    <string name="metode_pengiriman">Metode Pengiriman</string>
+    <string name="order_dan_kirim">Order dan Kirim</string>
+
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+
+    <string-array name="cities_array">
+        <item>Kota Bandung</item>
+        <item>Kota Cimahi</item>
+        <item>Kabupaten Bandung</item>
+        <item>Kabupaten Bandung Barat</item>
+    </string-array>
+</resources>

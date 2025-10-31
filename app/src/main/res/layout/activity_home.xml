@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/text_halo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Halo,"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_pilih_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/pilih_menu"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+                <ImageView
+                    android:id="@+id/image_donuts"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/donut_circle"
+                    android:contentDescription="@string/donut_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_donuts"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/donut_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_froyo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/froyo_circle"
+                    android:contentDescription="@string/froyo_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_froyo"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/froyo_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_ice"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icecream_circle"
+                    android:contentDescription="@string/ice_cream_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_ice"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/ice_cream_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_kopi_hitam"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kopi_hitam"
+                    android:contentDescription="@string/kopi_hitam_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_kopi_hitam"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/kopi_hitam_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_caffe_latte"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/caffe_latte"
+                    android:contentDescription="@string/caffe_latte_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_caffe_latte"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/caffe_latte_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_croissant"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/croissant"
+                    android:contentDescription="@string/croissant_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_croissant"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/croissant_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_cheesecake"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cheesecake"
+                    android:contentDescription="@string/cheesecake_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_cheesecake"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cheesecake_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_matcha_latte"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/matcha_latte"
+                    android:contentDescription="@string/matcha_latte_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_matcha_latte"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/matcha_latte_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_club_sandwich"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/club_sandwich"
+                    android:contentDescription="@string/club_sandwich_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_club_sandwich"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/club_sandwich_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_red_velvet"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/red_velvet"
+                    android:contentDescription="@string/red_velvet_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_red_velvet"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/red_velvet_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_jus_jeruk"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jus_jeruk"
+                    android:contentDescription="@string/jus_jeruk_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_jus_jeruk"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/jus_jeruk_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_muffin"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/muffin"
+                    android:contentDescription="@string/muffin_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_muffin"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/muffin_desc" /> </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:id="@+id/image_espresso"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/espresso"
+                    android:contentDescription="@string/espresso_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/image_espresso"
+                    android:layout_marginStart="16dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/espresso_desc" /> </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>
